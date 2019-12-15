@@ -1,0 +1,42 @@
+.body {
+    font-family: 'Inria Serif', serif;
+}
+
+
+#overlay {
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#menu_1 {
+    width: 60px;
+}
+
+.menu {
+    font-family: 'Fruktur', cursive;
+    padding-top: 2%;
+}
+
+.row1 {
+    font-family: 'Fruktur', cursive;  
+    font-size: 20px;
+}
+
+#matam {
+    color: rgb(190, 108, 78);
+}
+
+#authen {
+    color: rgb(125, 170, 125);
+    font-size: 25px;
+}
+
+.title {
+    color: rgb(190, 108, 78); 
+}
+.card {
+    text-align: center;
+}
