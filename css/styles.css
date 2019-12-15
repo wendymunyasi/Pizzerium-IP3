@@ -1,14 +1,5 @@
 .body {
-    font-family: 'Inria Serif', serif;
-}
-
-
-#overlay {
-    background-image: url(../images/background.jpeg);
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-color: black;
+    font-family: 'Inria Serif', serif;    
 }
 
 #menu_1 {
