@@ -31,3 +31,12 @@
 .card {
     text-align: center;
 }
+
+.card-body {
+    font-family: 'Girassol', cursive;
+    font-size: 25px;
+}
+
+.card-body1{
+    color: rgb(4, 4, 85);
+}
