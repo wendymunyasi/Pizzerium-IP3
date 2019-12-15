@@ -41,3 +41,16 @@
 .card-body1{
     color: rgb(4, 4, 85);
 }
+
+#head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 0;
+    padding-top: 3%;
+    margin-top: -2%;
+}
+
+.card {
+    margin: 5%;
+}
