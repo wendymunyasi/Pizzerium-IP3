@@ -32,9 +32,10 @@
     text-align: center;
 }
 
-.card-body {
+.card-body, .pizza-types {
     font-family: 'Girassol', cursive;
     font-size: 25px;
+    text-align: center;
 }
 
 .card-body1{
