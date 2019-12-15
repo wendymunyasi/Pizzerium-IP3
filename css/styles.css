@@ -38,6 +38,11 @@
     text-align: center;
 }
 
+.pizza-types {
+    font-size: 40px;
+    color: rgb(4, 4, 85);
+}
+
 .card-body1{
     color: rgb(4, 4, 85);
 }
