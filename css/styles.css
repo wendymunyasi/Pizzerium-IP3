@@ -81,7 +81,7 @@
     margin-top: -1%;
 }
 
-.card {
+.crd {
     margin: 4%;
     background-image: url("../images/menu.jpg");
     background-repeat: no-repeat;
@@ -89,4 +89,18 @@
 
 .c4 {
     border: 1px solid white;
+}
+.mycard{
+   padding:15px 20px;
+   width:50%;
+   align-items: center; 
+}
+
+#order {
+    align-items: center;
+}
+
+#order form, .form-bottom {
+    margin-left:60%;
+    width: 80%;
 }
