@@ -2,6 +2,13 @@
     font-family: 'Inria Serif', serif;    
 }
 
+.parallax {
+    background: url("../images/background.jpeg"), no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+}
+
 #menu_1 {
     width: 60px;
 }
