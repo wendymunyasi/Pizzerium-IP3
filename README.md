@@ -4,9 +4,6 @@
 
 - Wendy Munyasi
 
-## Codebeat
-
-[![codebeat badge](https://codebeat.co/badges/d1fe9825-8927-4762-ab49-a009a600a734)](https://codebeat.co/projects/github-com-wendymunyasi-delani-studio-master)
 ## Description
 
 This ia a website that specifically deals with the ordering of pizza.
