@@ -1,6 +1,6 @@
 //Now we define the variables, ok?
 
-var pizzaFlavor = ["Italian", "Tuscan", "Portabella", "Prima", "Paradiso", "Napoletana"];
+var pizzaFlavour = ["Italian", "Tuscan", "Portabella", "Prima", "Paradiso", "Napoletana"];
 
 var pizzaSize = ["Small", "Medium", "Large", "Jumbo"];
 
@@ -10,8 +10,8 @@ var topping = ["Fruits", "Bacon", "Cheese", "Mushroom"];
 
 //Now let's define our calling functions, is that okay?
 
-function getType() {
-    var flavour = $("#pizzatype :selected").val();
+function getFlavour() {
+    var flavour = $("#pizzaflavour :selected").val();
     return parseInt(flavour);
 }
 
@@ -39,12 +39,21 @@ function getNumber() {
 
 function getAmount(flavour, size, crust, topping, number) {
     var results =
-        (parseInt(flavour.val()) + parseInt(size.val()) + parseInt(crust.val()) +
-            parseInt(topping.val())) * parseInt(number.val());
+        (parseInt(flavour.val()) +
+            parseInt(size.val()) +
+            parseInt(crust.val()) +
+            parseInt(topping.val())) *
+        parseInt(number.val());
     alert(
         "You've ordered " + number.val() + " " + "pizza's" +
-        " " + flavour.html() + " " + size.html() +
-        " " + crust.html() + " " + topping.html() +
+        " " +
+        flavour.html() +
+        " " +
+        size.html() +
+        " " +
+        crust.html() +
+        " " + 
+        topping.html() +
         " " +
         " which amounts to Ksh. " +
         results +
@@ -63,10 +72,10 @@ function getPick(flavour, size, crust, topping, number) {
             parseInt(crust.val()) +
             parseInt(topping.val())) *
         parseInt(number.val());
-    alert("You've ordered " + number.val() + " " + " pizza's, " +
+    alert("You've ordered " + number.val() + " " + " pizza(s), " +
         flavour.html() + " " + size.html() + " " + crust.html() +
         "  " + topping.html() + "  " + " which amounts to Ksh. " +
-        results + "  Thanks for shopping with us  "
+        results + "  Thanks for shopping with us.  "
     );
 
 }
