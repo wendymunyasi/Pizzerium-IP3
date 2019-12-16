@@ -15,7 +15,7 @@
    left: 50%;
    width: 250px;
    height: 250px;
-   margin-top: -125px; /* Half the height */
+   margin-top: -125px; /* Half the height  so we can centre*/
    margin-left: -125px;
 }
 
@@ -45,6 +45,7 @@
 .title {
     color: rgb(190, 108, 78); 
 }
+
 .card {
     text-align: center;
 }
@@ -82,4 +83,10 @@
 
 .card {
     margin: 4%;
+    background-image: url("../images/menu.jpg");
+    background-repeat: no-repeat;
+}
+
+.c4 {
+    border: 1px solid white;
 }
