@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,72 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>ORDER FORM</title>
 </head>
-<body>
-    <div class="container-fluid">
 
+<body>
+    <div class="container-fluid align-items-center text-center" id="order">
+        <h1>Pizza Order Form</h1>
+        <div class="card mycard">
+            <div class="card-body">
+                <form>
+                    <div class="form-group text-center myform 18rem">
+                        <label for="PizzaType">PizzaType</label>
+                        <select class="form-control text-center" id="pizzatype">
+                            <option>Choose Pizza Type</option>
+                            <option value="300">Italian</option>
+                            <option value="400">Tuscan</option>
+                            <option value="500">Portabella</option>
+                            <option value="600">Prima</option>
+                            <option value="700">Paradiso</option>
+                            <option value="700">Napoletana</option>
+                        </select>
+                    </div>
+                    <div class="form-group text-center myform">
+                        <label for="size">Size</label>
+                        <select class="form-control" id="pizzasize">
+                            <option>Choose Pizza Size</option>
+                            <option value="600">small@Ksh. 600</option>
+                            <option value="8000">Medium @Ksh. 800</option>
+                            <option value="1000">Large@Ksh. 1000</option>
+                            <option value="1200">Jumbo@Ksh. 1200</option>
+                        </select>
+                    </div>
+                    <div class="form-group text-center myform">
+                        <label for="Crust">Choose Type of Crust</label>
+                        <select class="form-control" id="pizzacrust" name="pizza">
+                            <option>Select Pizza Crust</option>
+                            <option value="200">Thin@ Ksh. 200</option>
+                            <option value="400">Thick/Double@ Ksh. 400</option>
+                            <option value="600">Crispy@ Ksh. 600</option>
+                            <option value="800">Gluten-free@Ksh. 800</option>
+                        </select>
+                    </div>
+                    <div class="form-group text-center myform">
+                        <label for="Toppings">Choose Topping</label>
+                        <select class="form-control" id="pizzatopping">
+                            <option>Select Pizza Toppings</option>
+                            <option value="100">Fruits @Ksh.100 </option>
+                            <option value="100">Bacon @ Ksh 100</option>
+                            <option value="100">Cheese @ Ksh 100</option>
+                            <option value="100">Mushroom @Ksh 100</option>
+                        </select>
+                    </div>
+                    <div class="form-group text-center myform">
+                        <label for="number">Number of Pizza's</label>
+                        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
+                            required>
+                    </div>
+                </form>
+                <div class="text-center p-5 form-bottom">
+                    <button id="pick-up" type="button" class="btn btn-success mybtn">PICK UP</button>
+                </div>
+                <div class="text-center form-bottom">
+                    <button id="make-delivery" type="button" class="btn btn-info mybtn">MAKE DELIVERY</button>
+                </div>
+            </div>
+        </div>
     </div>
-<script src="js/jquery-3.4.1.js"></script>
-<script src="js/scripts.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
