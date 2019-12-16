@@ -168,13 +168,13 @@
         </div>
     </div>
     <div class="container-fluid align-items-center text-center" id="order">
-        <h1>Pizza Order Form</h1>
+        <h1 class="pizza_order">Pizza Order Form</h1>
         <div class="card mycard">
             <div class="card-body">
                 <form>
                     <div class="form-group text-center myform 18rem">
                         <label for="PizzaType">PizzaType</label>
-                        <select class="form-control text-center" id="pizzatype">
+                        <select class="form-control text-center" id="pizzaflavour">
                             <option>Choose Pizza Type</option>
                             <option value="300">Italian Pizza</option>
                             <option value="400">Tuscan Pizza</option>
@@ -186,7 +186,7 @@
                     </div>
                     <div class="form-group text-center myform">
                         <label for="size">Size</label>
-                        <select class="form-control" id="pizzasize">
+                        <select class="form-control text-center" id="pizzasize">
                             <option>Choose Pizza Size</option>
                             <option value="600">small@Ksh. 600</option>
                             <option value="8000">Medium @Ksh. 800</option>
@@ -196,7 +196,7 @@
                     </div>
                     <div class="form-group text-center myform">
                         <label for="Crust">Choose Type of Crust</label>
-                        <select class="form-control" id="pizzacrust" name="pizza">
+                        <select class="form-control text-center" id="pizzacrust" name="pizza">
                             <option>Select Pizza Crust</option>
                             <option value="200">Thin Crust@ Ksh. 200</option>
                             <option value="400">Thick/Double Crust@ Ksh. 400</option>
@@ -206,7 +206,7 @@
                     </div>
                     <div class="form-group text-center myform">
                         <label for="Toppings">Choose Topping</label>
-                        <select class="form-control" id="pizzatopping">
+                        <select class="form-control text-center" id="pizzatopping">
                             <option>Select Pizza Toppings</option>
                             <option value="100">Jalapeno Toppings @Ksh.100 </option>
                             <option value="100">Bacon Toppings@ Ksh 100</option>
@@ -216,7 +216,7 @@
                     </div>
                     <div class="form-group text-center myform">
                         <label for="number">Number of Pizza's</label>
-                        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
+                        <input type="number" class="form-control text-center" id="number" placeholder="Number of pizzas" min="1"
                             required>
                     </div>
                 </form>
