@@ -13,8 +13,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="overlay text-center">
-            <img src="images/background.jpeg">
+        <div class="parallax">
         </div>
         <div class="card text-center">
             <div class="card-body">
@@ -115,8 +114,20 @@
                 </div>
             </div>
         </div>
-        </div>   
-    </div>
+    </div>   
+    <div class="container-fluid">
+        <div class="contact>
+          <h3 class="text-center" style="color:white; padding:25px"><strong> CONTACT US</strong></h3>
+          <form id="form" method="post" action="">
+            <input type="text" id="txt" placeholder="Name...">
+            <input type="email" id="email" placeholder="Email...">
+            <textarea id="text" placeholder="Your message here..."></textarea>
+            <center><input type="submit" value="Submit" name="btn" class="btn btn-info" onclick="checkEmpty()">
+            </center>
+          </form>
+          <p id="results"></p>
+        </div>
+      </div>
 
 
     <script src="js/jquery-3.4.1.js"></script>
