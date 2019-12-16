@@ -82,7 +82,7 @@
 }
 
 .crd {
-    margin: 4%;
+    margin: 6%;
     background-image: url("../images/menu.jpg");
     background-repeat: no-repeat;
 }
@@ -103,4 +103,8 @@
 #order form, .form-bottom {
     margin-left:60%;
     width: 80%;
+}
+
+.pizza_order {
+    font-family: 'Girassol', cursive;
 }
