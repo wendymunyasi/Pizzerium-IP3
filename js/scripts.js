@@ -63,24 +63,17 @@ function getPick(flavour, size, crust, topping, number) {
             parseInt(crust.val()) +
             parseInt(topping.val())) *
         parseInt(number.val());
-    alert(
-        "You've ordered " +
-        number.val() +
-        " " +
-        " pizza's, " +
-        flavour.html() +
-        " " +
-        size.html() +
-        " " +
-        crust.html() +
-        "  " +
-        topping.html() +
-        "  " +
-        " which amounts to Ksh. " +
-        results +
-        "  Thanks for shopping with us  "
+    alert("You've ordered " + number.val() + " " + " pizza's, " +
+        flavour.html() + " " + size.html() + " " + crust.html() +
+        "  " + topping.html() + "  " + " which amounts to Ksh. " +
+        results + "  Thanks for shopping with us  "
     );
+
 }
+
+
+//User Interface logic
+
 $(document).ready(function () {
     $("#make-delivery").click(function (event) {
         var flavour = $("#pizzaflavour :selected");
