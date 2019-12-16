@@ -9,6 +9,16 @@
     height: 1000px;
 }
 
+.img {
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 250px;
+   height: 250px;
+   margin-top: -125px; /* Half the height */
+   margin-left: -125px;
+}
+
 #menu_1 {
     width: 60px;
 }
@@ -48,6 +58,13 @@
 .pizza-types {
     font-size: 40px;
     color: rgb(4, 4, 85);
+    
+}
+
+#head {
+    background-color: transparent;
+    background-image: url("../images/background2.jpeg");
+    background-repeat: no-repeat;
 }
 
 .card-body1{
