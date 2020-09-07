@@ -1,5 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red !important; */
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    box-sizing: inherit;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 .body {
-    font-family: 'Inria Serif', serif;    
+    font-family: 'Inria Serif', serif;
 }
 
 .parallax {
@@ -11,12 +35,13 @@
 
 .img {
     position: absolute;
-   top: 50%;
-   left: 50%;
-   width: 250px;
-   height: 250px;
-   margin-top: -125px; /* Half the height  so we can centre*/
-   margin-left: -125px;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: -125px;
+    /* Half the height  so we can centre*/
+    margin-left: -125px;
 }
 
 #menu_1 {
@@ -29,7 +54,7 @@
 }
 
 .row1 {
-    font-family: 'Fruktur', cursive;  
+    font-family: 'Fruktur', cursive;
     font-size: 20px;
 }
 
@@ -43,14 +68,15 @@
 }
 
 .title {
-    color: rgb(190, 108, 78); 
+    color: rgb(190, 108, 78);
 }
 
 .card {
     text-align: center;
 }
 
-.card-body, .pizza-types {
+.card-body,
+.pizza-types {
     font-family: 'Girassol', cursive;
     font-size: 25px;
     text-align: center;
@@ -59,16 +85,17 @@
 .pizza-types {
     font-size: 40px;
     color: rgb(4, 4, 85);
-    
+
 }
 
 #head {
     background-color: transparent;
     background-image: url("../images/background2.jpeg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.card-body1{
+.card-body1 {
     color: rgb(4, 4, 85);
 }
 
@@ -85,24 +112,27 @@
     margin: 6%;
     background-image: url("../images/menu.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .c4 {
     border: 1px solid white;
 }
-.mycard{
-   padding:15px 20px;
-   width:50%;
-   align-items: center; 
+
+.mycard {
+    /* padding:15px 20px; */
+    /* width:50%; */
+    align-items: center;
 }
 
 #order {
     align-items: center;
 }
 
-#order form, .form-bottom {
-    margin-left:60%;
-    width: 80%;
+#order form,
+.form-bottom {
+    /* margin-left:60%; */
+    /* width: 80%; */
 }
 
 .pizza_order {

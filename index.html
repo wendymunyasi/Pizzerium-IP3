@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fruktur&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/izmir.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>PIZZERIUM</title>
@@ -17,7 +17,7 @@
 <body>
     <div class="container-fluid">
         <div class="parallax">
-            <img src="images/pizza_logo.jpg" class="img">
+            <img src="images/pizza_logo.jpg" class="img img-fluid">
         </div>
         <div class="card text-center crd">
             <div class="card-body">
@@ -34,75 +34,96 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid mb-3">
         <h1 class="pizza-types">OUR PIZZAS</h1>
-        <div id="head">
-            <div class="card img-fluid" style="width:250px" id="italian">
-                <figure class="c4-izmir c4-border-centre" style="width:250px">
-                    <img class="card-img-top" src="images/Types_of_pizzas/italian.jpg" alt="Card image"
-                        style="width:100%">
-                    <figcaption class="c4-reveal-left c4-delay-200">
-                        <h3>
-                            Italian
-                        </h3>
-                    </figcaption>
-                </figure>
+        <div id="head" class="py-4">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card img-fluid mx-auto mb-3" style="width:250px" id="italian">
+                        <figure class="c4-izmir c4-border-centre" style="width:250px">
+                            <img class="card-img-top img-fluid" src="images/Types_of_pizzas/italian.jpg" alt="Card image"
+                                style="width:100%">
+                            <figcaption class="c4-reveal-left c4-delay-200">
+                                <h3>
+                                    Italian
+                                </h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card img-fluid mx-auto mb-3" style="width:250px" id="italian">
+                        <figure class="c4-izmir c4-border-centre" style="width:250px">
+                            <img class="card-img-top img-fluid" src="images/Types_of_pizzas/tuscan.jpg" alt="Card image"
+                                style="width:100%">
+                            <figcaption class="c4-reveal-left c4-delay-200">
+                                <h3>
+                                    Tuscan
+                                </h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card img-fluid mx-auto mb-3" style="width:250px" id="italian">
+                        <figure class="c4-izmir c4-border-centre" style="width:250px">
+                            <img class="card-img-top img-fluid" src="images/Types_of_pizzas/portabella.jpg" alt="Card image"
+                                style="width:100%">
+                            <figcaption class="c4-reveal-left c4-delay-200">
+                                <h3>
+                                    Portabella
+                                </h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
-            <div class="card img-fluid" style="width:250px" id="italian">
-                <figure class="c4-izmir c4-border-centre" style="width:250px">
-                    <img class="card-img-top" src="images/Types_of_pizzas/tuscan.jpg" alt="Card image"
-                        style="width:100%">
-                    <figcaption class="c4-reveal-left c4-delay-200">
-                        <h3>
-                            Tuscan
-                        </h3>
-                    </figcaption>
-                </figure>
+            
+            
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card img-fluid mx-auto mb-3" style="width:250px" id="italian">
+                        <figure class="c4-izmir c4-border-centre" style="width:250px">
+                            <img class="card-img-top img-fluid" src="images/Types_of_pizzas/prima.jpg" alt="Card image"
+                                style="width:100%">
+                            <figcaption class="c4-reveal-left c4-delay-200">
+                                <h3>
+                                    Prima
+                                </h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card img-fluid mx-auto mb-3" style="width:250px" id="italian">
+                        <figure class="c4-izmir c4-border-centre" style="width:250px">
+                            <img class="card-img-top img-fluid" src="images/Types_of_pizzas/paradiso.jpg" alt="Card image"
+                                style="width:100%">
+                            <figcaption class="c4-reveal-left c4-delay-200">
+                                <h3>
+                                    Paradiso
+                                </h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card img-fluid mx-auto mb-3" style="width:250px" id="italian">
+                        <figure class="c4-izmir c4-border-centre" style="width:250px">
+                            <img class="card-img-top img-fluid" src="images/Types_of_pizzas/napoletana.jpg" alt="Card image"
+                                style="width:100%">
+                            <figcaption class="c4-reveal-left c4-delay-200">
+                                <h3>
+                                    Napoletana
+                                </h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
-            <div class="card img-fluid" style="width:250px" id="italian">
-                <figure class="c4-izmir c4-border-centre" style="width:250px">
-                    <img class="card-img-top" src="images/Types_of_pizzas/portabella.jpg" alt="Card image"
-                        style="width:100%">
-                    <figcaption class="c4-reveal-left c4-delay-200">
-                        <h3>
-                            Portabella
-                        </h3>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="card img-fluid" style="width:250px" id="italian">
-                <figure class="c4-izmir c4-border-centre" style="width:250px">
-                    <img class="card-img-top" src="images/Types_of_pizzas/prima.jpg" alt="Card image"
-                        style="width:100%">
-                    <figcaption class="c4-reveal-left c4-delay-200">
-                        <h3>
-                            Prima
-                        </h3>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="card img-fluid" style="width:250px" id="italian">
-                <figure class="c4-izmir c4-border-centre" style="width:250px">
-                    <img class="card-img-top" src="images/Types_of_pizzas/paradiso.jpg" alt="Card image"
-                        style="width:100%">
-                    <figcaption class="c4-reveal-left c4-delay-200">
-                        <h3>
-                            Paradiso
-                        </h3>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="card img-fluid" style="width:250px" id="italian">
-                <figure class="c4-izmir c4-border-centre" style="width:250px">
-                    <img class="card-img-top" src="images/Types_of_pizzas/napoletana.jpg" alt="Card image"
-                        style="width:100%">
-                    <figcaption class="c4-reveal-left c4-delay-200">
-                        <h3>
-                            Napoletana
-                        </h3>
-                    </figcaption>
-                </figure>
-            </div>
+           
+            
+            
         </div>
     </div>
     <div class="container-fluid">
@@ -110,12 +131,12 @@
             <h1 class="pizza-types">MENU</h1>
             <div class="card-body crd">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-12 col-sm-12 col-md-6">
                         <h1 class="menu" id="matam">MATAMOROS PIZZA</h1>
                         <h1 class="menu" id="matam">RESTAURANT</h1>
                         <P class="menu" id="authen">For your authentic Italian pizza</P>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-12 col-sm-12 col-md-6">
                         <img src="images/menu_1.jpg" width="250px">
                     </div>
                 </div>
@@ -143,26 +164,29 @@
                         tomato sauce.</p>
                 </div>
                 <div class="row1">
-                    <h2 class="title"><strong>PRICES</strong></h2>
-                    <div class="col-md-6">
-                        <P><strong>For every pizza apart from <em>Italian</em> and <em>Napoletana:</em></strong></P>
-                        <ul>
-                            <li>Small @ Ksh. 600</li>
-                            <li>Medium @ Ksh. 800</li>
-                            <li>Large @ Ksh. 1000</li>
-                            <li>Jumbo @ Ksh. 1200</li>
-                        </ul>
-
+                    <h2 class="title text-center"><strong>PRICES</strong></h2>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <P><strong>For every pizza apart from <em>Italian</em> and <em>Napoletana:</em></strong></P>
+                            <ul>
+                                <li>Small @ Ksh. 600</li>
+                                <li>Medium @ Ksh. 800</li>
+                                <li>Large @ Ksh. 1000</li>
+                                <li>Jumbo @ Ksh. 1200</li>
+                            </ul>
+    
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <p><strong>For <em>Italian</em> and <em>Napoletana:</em></strong></p>
+                            <ul>
+                                <li>Small @ Ksh. 800</li>
+                                <li>Medium @ Ksh. 1000</li>
+                                <li>Large @ Ksh. 1200</li>
+                                <li>Jumbo @ Ksh. 1400</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <p><strong>For <em>Italian</em> and <em>Napoletana:</em></strong></p>
-                        <ul>
-                            <li>Small @ Ksh. 800</li>
-                            <li>Medium @ Ksh. 1000</li>
-                            <li>Large @ Ksh. 1200</li>
-                            <li>Jumbo @ Ksh. 1400</li>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -171,8 +195,8 @@
         <h1 class="pizza_order">Pizza Order Form</h1>
         <div class="card mycard">
             <div class="card-body">
-                <form>
-                    <div class="form-group text-center myform 18rem">
+                <form class="mx-auto">
+                    <div class="form-group text-center myform">
                         <label for="PizzaType">PizzaType</label>
                         <select class="form-control text-center" id="pizzaflavour">
                             <option>Choose Pizza Type</option>
@@ -216,8 +240,8 @@
                     </div>
                     <div class="form-group text-center myform">
                         <label for="number">Number of Pizza's</label>
-                        <input type="number" class="form-control text-center" id="number" placeholder="Number of pizzas" min="1"
-                            required>
+                        <input type="number" class="form-control text-center" id="number" placeholder="Number of pizzas"
+                            min="1" required>
                     </div>
                 </form>
                 <div class="text-center p-5 form-bottom">
@@ -231,7 +255,9 @@
     </div>
 
 
-    <script src="js/jquery-3.4.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 
