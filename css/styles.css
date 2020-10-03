@@ -76,6 +76,10 @@ html {
     width: 900px;
 }
 
+.card-body.formCard {
+    width: 100%;
+}
+
 .card-body,
 .pizza-types {
     font-family: 'Girassol', cursive;
