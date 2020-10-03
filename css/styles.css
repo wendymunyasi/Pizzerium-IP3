@@ -73,6 +73,9 @@ html {
 
 .card {
     text-align: center;
+}
+
+.card.mycard {
     width: 900px;
 }
 
