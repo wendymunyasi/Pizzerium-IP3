@@ -3,7 +3,7 @@
 *::before {
     margin: 0;
     padding: 0;
-    outline: 1px solid red !important;
+    /* outline: 1px solid red !important; */
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -121,7 +121,7 @@ html {
     background-image: url("../images/menu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .c4 {
@@ -146,4 +146,8 @@ html {
 
 .pizza_order {
     font-family: 'Girassol', cursive;
+}
+
+input#number.form-control.text-center {
+    text-align: start !important;
 }
