@@ -20,20 +20,17 @@ html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}
-
-.body {
     font-family: 'Inria Serif', serif;
 }
 
-.parallax {
+.container-fluid .parallax {
     background: url("../images/background.jpeg"), no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 1000px;
 }
 
-.img {
+.container-fluid .parallax .img {
     position: absolute;
     top: 50%;
     left: 50%;
